@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Delish - Food Ordering</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">Delish<span>.</span></h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Home</a></li>
+          <li><a href="#menu">Menu</a></li>
+          <li><a href="#order">Order</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <section id="home" class="hero">
+    <div class="container">
+      <h2>Delicious Food Delivered To You</h2>
+      <p>Freshly made, quickly delivered. Taste the best!</p>
+      <a href="#menu" class="btn">Explore Menu</a>
+    </div>
+  </section>
+
+  <section id="menu" class="menu-section">
+    <div class="container">
+      <h2>Our Menu</h2>
+      <div class="menu-grid">
+        <div class="menu-card">
+          <img src="https://source.unsplash.com/300x200/?pizza" alt="Pizza">
+          <h3>Cheesy Pizza</h3>
+          <p>₹299</p>
+        </div>
+        <div class="menu-card">
+          <img src="https://source.unsplash.com/300x200/?burger" alt="Burger">
+          <h3>Grilled Burger</h3>
+          <p>₹199</p>
+        </div>
+        <div class="menu-card">
+          <img src="https://source.unsplash.com/300x200/?pasta" alt="Pasta">
+          <h3>Italian Pasta</h3>
+          <p>₹249</p>
+        </div>
+        <div class="menu-card">
+          <img src="https://source.unsplash.com/300x200/?noodles" alt="Noodles">
+          <h3>Spicy Noodles</h3>
+          <p>₹179</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="order" class="order-section">
+    <div class="container">
+      <h2>Place Your Order</h2>
+      <form>
+        <input type="text" placeholder="Your Name" required />
+        <input type="tel" placeholder="Phone Number" required />
+        <input type="text" placeholder="Address" required />
+        <select required>
+          <option disabled selected>Select Food Item</option>
+          <option>Cheesy Pizza</option>
+          <option>Grilled Burger</option>
+          <option>Italian Pasta</option>
+          <option>Spicy Noodles</option>
+        </select>
+        <button type="submit" class="btn">Order Now</button>
+      </form>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Delish. All rights reserved.</p>
+  </footer>
+</body>
+</html>
